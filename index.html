@@ -1,0 +1,618 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assests/css/reset.css" />
+    <link rel="stylesheet" href="/assests/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="/assests/img/skvajinfavicon.webp"
+      type="image/x-icon"
+    />
+    <title>Ремонт Скважин</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="top-bar">
+          <div class="top-left">
+            <a>
+              <!-- clock svg -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                version="1.1"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="15"
+                height="15"
+                x="0"
+                y="0"
+                viewBox="0 0 512 512"
+                style="enable-background: new 0 0 512 512"
+                xml:space="preserve"
+                class=""
+              >
+                <g>
+                  <path
+                    d="M437.02 74.98C388.667 26.629 324.38 0 256 0S123.333 26.629 74.98 74.98C26.629 123.333 0 187.62 0 256s26.629 132.667 74.98 181.02C123.333 485.371 187.62 512 256 512s132.667-26.629 181.02-74.98C485.371 388.667 512 324.38 512 256s-26.629-132.667-74.98-181.02zm-10.607 351.433C380.894 471.932 320.374 497 256 497s-124.894-25.068-170.413-70.587C40.068 380.894 15 320.374 15 256S40.068 131.106 85.587 85.587C131.106 40.068 191.626 15 256 15s124.894 25.068 170.413 70.587C471.932 131.106 497 191.626 497 256s-25.068 124.894-70.587 170.413z"
+                    fill="#000000"
+                    opacity="1"
+                    data-original="#000000"
+                    class=""
+                  ></path>
+                  <path
+                    d="M256 80.161a7.5 7.5 0 0 0-7.5 7.5v32.064a7.5 7.5 0 0 0 15 .001V87.661a7.5 7.5 0 0 0-7.5-7.5zM256 384.774a7.5 7.5 0 0 0-7.5 7.5v32.064a7.5 7.5 0 0 0 15 0v-32.064a7.5 7.5 0 0 0-7.5-7.5zM424.339 248.5h-32.064a7.5 7.5 0 0 0 0 15h32.064a7.5 7.5 0 0 0 0-15zM119.725 248.5H87.661a7.5 7.5 0 0 0 0 15h32.064a7.5 7.5 0 0 0 0-15zM127.849 173.352l-13.884-8.016a7.5 7.5 0 0 0-7.5 12.99l13.884 8.016a7.499 7.499 0 0 0 10.245-2.745 7.5 7.5 0 0 0-2.745-10.245zM405.535 333.674l-13.884-8.016a7.5 7.5 0 0 0-7.5 12.99l13.884 8.016a7.499 7.499 0 0 0 10.245-2.745 7.5 7.5 0 0 0-2.745-10.245zM343.919 103.72a7.5 7.5 0 0 0-10.245 2.745l-8.016 13.884a7.5 7.5 0 0 0 12.99 7.5l8.016-13.884a7.5 7.5 0 0 0-2.745-10.245zM183.597 381.406a7.499 7.499 0 0 0-10.245 2.745l-8.016 13.884a7.5 7.5 0 0 0 12.99 7.5l8.016-13.884a7.5 7.5 0 0 0-2.745-10.245zM408.281 168.08a7.5 7.5 0 0 0-10.245-2.745l-13.884 8.016a7.5 7.5 0 0 0 7.5 12.99l13.884-8.016a7.5 7.5 0 0 0 2.745-10.245zM130.594 328.403a7.498 7.498 0 0 0-10.245-2.745l-13.884 8.016a7.5 7.5 0 0 0 7.5 12.99l13.884-8.016a7.5 7.5 0 0 0 2.745-10.245zM186.342 120.349l-8.016-13.884a7.5 7.5 0 0 0-12.99 7.5l8.016 13.884a7.497 7.497 0 0 0 10.245 2.745 7.5 7.5 0 0 0 2.745-10.245zM346.664 398.035l-8.016-13.884a7.5 7.5 0 0 0-12.99 7.5l8.016 13.884a7.497 7.497 0 0 0 10.245 2.745 7.5 7.5 0 0 0 2.745-10.245zM367.622 238.827a7.495 7.495 0 0 0-8.553-6.272l-82.173 12.642c-3.921-7.554-11.813-12.729-20.895-12.729-3.757 0-7.309.89-10.463 2.463l-80.427-80.427a7.5 7.5 0 0 0-10.606 0 7.5 7.5 0 0 0 0 10.606l80.427 80.427A23.379 23.379 0 0 0 232.469 256c0 12.976 10.557 23.532 23.532 23.532 11.604 0 21.267-8.445 23.181-19.51l82.169-12.641a7.501 7.501 0 0 0 6.271-8.554zM256 264.532c-4.705 0-8.532-3.828-8.532-8.532 0-4.704 3.828-8.532 8.532-8.532s8.532 3.828 8.532 8.532-3.827 8.532-8.532 8.532z"
+                    fill="#000000"
+                    opacity="1"
+                    data-original="#000000"
+                    class=""
+                  ></path>
+                  <path
+                    d="M390.746 97.743c-39.66-33.836-90.282-51.411-142.547-49.473-52.557 1.943-101.996 23.508-139.208 60.72s-58.777 86.651-60.72 139.208c-1.933 52.263 15.637 102.888 49.473 142.547a7.48 7.48 0 0 0 5.709 2.632 7.5 7.5 0 0 0 5.702-12.367c-31.389-36.792-47.689-83.761-45.895-132.258 1.803-48.761 21.811-94.629 56.337-129.156s80.395-54.534 129.156-56.337c48.5-1.793 95.466 14.506 132.258 45.895a7.5 7.5 0 0 0 9.735-11.411zM414.257 121.254a7.5 7.5 0 0 0-11.411 9.735c31.389 36.792 47.688 83.762 45.895 132.258-1.803 48.761-21.811 94.629-56.337 129.156s-80.395 54.534-129.156 56.337c-48.492 1.795-95.466-14.505-132.258-45.895a7.5 7.5 0 0 0-9.735 11.411c37.687 32.153 85.273 49.617 134.76 49.617 2.59 0 5.188-.048 7.788-.144 52.557-1.943 101.996-23.508 139.208-60.72s58.777-86.651 60.72-139.208c1.932-52.262-15.638-102.887-49.474-142.547z"
+                    fill="#000000"
+                    opacity="1"
+                    data-original="#000000"
+                    class=""
+                  ></path>
+                </g>
+              </svg>
+              Рабочие часы: <span>Пн - Сб 8:00 - 18:00</span>
+            </a>
+
+            <a>
+              <!-- phone svg -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                version="1.1"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="15"
+                height="15"
+                x="0"
+                y="0"
+                viewBox="0 0 473.806 473.806"
+                style="enable-background: new 0 0 512 512"
+                xml:space="preserve"
+                class=""
+              >
+                <g>
+                  <path
+                    d="M374.456 293.506c-9.7-10.1-21.4-15.5-33.8-15.5-12.3 0-24.1 5.3-34.2 15.4l-31.6 31.5c-2.6-1.4-5.2-2.7-7.7-4-3.6-1.8-7-3.5-9.9-5.3-29.6-18.8-56.5-43.3-82.3-75-12.5-15.8-20.9-29.1-27-42.6 8.2-7.5 15.8-15.3 23.2-22.8 2.8-2.8 5.6-5.7 8.4-8.5 21-21 21-48.2 0-69.2l-27.3-27.3c-3.1-3.1-6.3-6.3-9.3-9.5-6-6.2-12.3-12.6-18.8-18.6-9.7-9.6-21.3-14.7-33.5-14.7s-24 5.1-34 14.7l-.2.2-34 34.3c-12.8 12.8-20.1 28.4-21.7 46.5-2.4 29.2 6.2 56.4 12.8 74.2 16.2 43.7 40.4 84.2 76.5 127.6 43.8 52.3 96.5 93.6 156.7 122.7 23 10.9 53.7 23.8 88 26 2.1.1 4.3.2 6.3.2 23.1 0 42.5-8.3 57.7-24.8.1-.2.3-.3.4-.5 5.2-6.3 11.2-12 17.5-18.1 4.3-4.1 8.7-8.4 13-12.9 9.9-10.3 15.1-22.3 15.1-34.6 0-12.4-5.3-24.3-15.4-34.3l-54.9-55.1zm35.8 105.3c-.1 0-.1.1 0 0-3.9 4.2-7.9 8-12.2 12.2-6.5 6.2-13.1 12.7-19.3 20-10.1 10.8-22 15.9-37.6 15.9-1.5 0-3.1 0-4.6-.1-29.7-1.9-57.3-13.5-78-23.4-56.6-27.4-106.3-66.3-147.6-115.6-34.1-41.1-56.9-79.1-72-119.9-9.3-24.9-12.7-44.3-11.2-62.6 1-11.7 5.5-21.4 13.8-29.7l34.1-34.1c4.9-4.6 10.1-7.1 15.2-7.1 6.3 0 11.4 3.8 14.6 7l.3.3c6.1 5.7 11.9 11.6 18 17.9 3.1 3.2 6.3 6.4 9.5 9.7l27.3 27.3c10.6 10.6 10.6 20.4 0 31-2.9 2.9-5.7 5.8-8.6 8.6-8.4 8.6-16.4 16.6-25.1 24.4-.2.2-.4.3-.5.5-8.6 8.6-7 17-5.2 22.7l.3.9c7.1 17.2 17.1 33.4 32.3 52.7l.1.1c27.6 34 56.7 60.5 88.8 80.8 4.1 2.6 8.3 4.7 12.3 6.7 3.6 1.8 7 3.5 9.9 5.3.4.2.8.5 1.2.7 3.4 1.7 6.6 2.5 9.9 2.5 8.3 0 13.5-5.2 15.2-6.9l34.2-34.2c3.4-3.4 8.8-7.5 15.1-7.5 6.2 0 11.3 3.9 14.4 7.3l.2.2 55.1 55.1c10.3 10.2 10.3 20.7.1 31.3zM256.056 112.706c26.2 4.4 50 16.8 69 35.8s31.3 42.8 35.8 69c1.1 6.6 6.8 11.2 13.3 11.2.8 0 1.5-.1 2.3-.2 7.4-1.2 12.3-8.2 11.1-15.6-5.4-31.7-20.4-60.6-43.3-83.5s-51.8-37.9-83.5-43.3c-7.4-1.2-14.3 3.7-15.6 11s3.5 14.4 10.9 15.6zM473.256 209.006c-8.9-52.2-33.5-99.7-71.3-137.5s-85.3-62.4-137.5-71.3c-7.3-1.3-14.2 3.7-15.5 11-1.2 7.4 3.7 14.3 11.1 15.6 46.6 7.9 89.1 30 122.9 63.7 33.8 33.8 55.8 76.3 63.7 122.9 1.1 6.6 6.8 11.2 13.3 11.2.8 0 1.5-.1 2.3-.2 7.3-1.1 12.3-8.1 11-15.4z"
+                    fill="#000000"
+                    opacity="1"
+                    data-original="#000000"
+                    class=""
+                  ></path>
+                </g>
+              </svg>
+              Позвоните: <span>(+1) 555 234-8765</span>
+            </a>
+          </div>
+
+          <div class="top-right">
+            <a href="#" class="btn">БЕСПЛАТНАЯ ОЦЕНКА</a>
+
+            <!-- social icons -->
+
+            <a href="">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                version="1.1"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="18"
+                height="18"
+                x="0"
+                y="0"
+                viewBox="0 0 24 24"
+                style="enable-background: new 0 0 512 512"
+                xml:space="preserve"
+                class=""
+              >
+                <g>
+                  <path
+                    d="m17.507 14.307-.009.075c-2.199-1.096-2.429-1.242-2.713-.816-.197.295-.771.964-.944 1.162-.175.195-.349.21-.646.075-.3-.15-1.263-.465-2.403-1.485-.888-.795-1.484-1.77-1.66-2.07-.293-.506.32-.578.878-1.634.1-.21.049-.375-.025-.524-.075-.15-.672-1.62-.922-2.206-.24-.584-.487-.51-.672-.51-.576-.05-.997-.042-1.368.344-1.614 1.774-1.207 3.604.174 5.55 2.714 3.552 4.16 4.206 6.804 5.114.714.227 1.365.195 1.88.121.574-.091 1.767-.721 2.016-1.426.255-.705.255-1.29.18-1.425-.074-.135-.27-.21-.57-.345z"
+                    fill="#000000"
+                    opacity="1"
+                    data-original="#000000"
+                  ></path>
+                  <path
+                    d="M20.52 3.449C12.831-3.984.106 1.407.101 11.893c0 2.096.549 4.14 1.595 5.945L0 24l6.335-1.652c7.905 4.27 17.661-1.4 17.665-10.449 0-3.176-1.24-6.165-3.495-8.411zm1.482 8.417c-.006 7.633-8.385 12.4-15.012 8.504l-.36-.214-3.75.975 1.005-3.645-.239-.375c-4.124-6.565.614-15.145 8.426-15.145a9.865 9.865 0 0 1 7.021 2.91 9.788 9.788 0 0 1 2.909 6.99z"
+                    fill="#000000"
+                    opacity="1"
+                    data-original="#000000"
+                  ></path>
+                </g>
+              </svg>
+            </a>
+
+            <a href="">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                version="1.1"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="20"
+                height="20"
+                x="0"
+                y="0"
+                viewBox="0 0 24 24"
+                style="enable-background: new 0 0 512 512"
+                xml:space="preserve"
+                class=""
+              >
+                <g>
+                  <path
+                    d="m9.417 15.181-.397 5.584c.568 0 .814-.244 1.109-.537l2.663-2.545 5.518 4.041c1.012.564 1.725.267 1.998-.931L23.93 3.821l.001-.001c.321-1.496-.541-2.081-1.527-1.714l-21.29 8.151c-1.453.564-1.431 1.374-.247 1.741l5.443 1.693L18.953 5.78c.595-.394 1.136-.176.691.218z"
+                    fill="#000000"
+                    opacity="1"
+                    data-original="#000000"
+                    class=""
+                  ></path>
+                </g>
+              </svg>
+            </a>
+
+            <a href="">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 42 42"
+                width="20"
+                height="20"
+                fill="#000"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M21.47 41.88c-4.11 0-6.02-.6-9.34-3-2.1 2.7-8.75 4.81-9.04 1.2 0-2.71-.6-5-1.28-7.5C1 29.5.08 26.07.08 21.1.08 9.23 9.82.3 21.36.3c11.55 0 20.6 9.37 20.6 20.91a20.6 20.6 0 0 1-20.49 20.67Zm.17-31.32c-5.62-.29-10 3.6-10.97 9.7-.8 5.05.62 11.2 1.83 11.52.58.14 2.04-1.04 2.95-1.95a10.4 10.4 0 0 0 5.08 1.81 10.7 10.7 0 0 0 11.19-9.97 10.7 10.7 0 0 0-10.08-11.1Z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- HEADER -->
+        <div class="header">
+          <!-- LOGO IMAGE -->
+          <div class="logo">
+            <img src="/assests/img/skvajinlogo.webp" alt="Logo" />
+          </div>
+
+          <!-- NAV -->
+          <div class="nav">
+            <a href="#" class="active">ГЛАВНАЯ</a>
+            <a href="#">О НАС</a>
+            <a href="#">БЛОГ</a>
+            <a href="#">МАГАЗИН</a>
+            <a href="#">ЭЛЕМЕНТЫ</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="banner">
+        <!-- IMAGE -->
+        <img
+          src="https://prohauz.bold-themes.com/air-condition/wp-content/uploads/sites/4/2018/10/background_air_condition_01.jpg"
+        />
+
+        <!-- CONTENT -->
+        <div class="container">
+          <div class="banner-content">
+            <h1>
+              <span>Кондиционирование</span>
+              <strong>Сервис</strong>
+            </h1>
+
+            <p>
+              Мы готовы помочь вам с обслуживанием как жилых, так и коммерческих
+              объектов.
+            </p>
+
+            <div class="buttons">
+              <a href="#" class="btn btn-primary">ЗАКАЗАТЬ УСЛУГУ</a>
+              <a href="#" class="btn btn-secondary">О НАС</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="services_cards">
+        <div class="container">
+          <div class="section_title">
+            <strong>Услуги</strong>
+            <p>
+              Полный комплекс услуг по прочистке и промывке труб, очистке
+              колодцев, дренажа и канализационных систем с использованием
+              современного оборудования
+            </p>
+          </div>
+          <div class="cards">
+            <!-- CARD 1 -->
+            <div class="card">
+              <div class="card-img">
+                <img
+                  src="https://newgaztech.ru/upload/images/events/1b0bce7e0b7afa35d4d3a8054ab68731.jpg"
+                />
+                <div class="card-icon">
+                  <img src="/assests/img/skvajinfavicon.webp" />
+                </div>
+              </div>
+
+              <div class="card-body">
+                <h3>Ремонт скважин</h3>
+                <p>Ремонт и Т.О. скважин любой сложности</p>
+
+                <a href="#" class="card-btn"> ПОДРОБНЕЕ <span>+</span> </a>
+              </div>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="card">
+              <div class="card-img">
+                <img
+                  src="https://i.ytimg.com/vi/jzt3BA0nMRQ/maxresdefault.jpg"
+                />
+                <div class="card-icon">
+                  <img src="/assests/img/skvajinfavicon.webp" />
+                </div>
+              </div>
+
+              <div class="card-body">
+                <h3>Замена насоса</h3>
+                <p>Замена всех видов насосов</p>
+
+                <a href="#" class="card-btn"> ПОДРОБНЕЕ <span>+</span> </a>
+              </div>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="card">
+              <div class="card-img">
+                <img
+                  src="https://static.tildacdn.com/tild6136-3533-4531-a265-323066353639/ChatGPT_Image_12__20.png"
+                />
+                <div class="card-icon">
+                  <img src="/assests/img/skvajinfavicon.webp" />
+                </div>
+              </div>
+
+              <div class="card-body">
+                <h3>Очистка скважин</h3>
+                <p>Очистка скважин от песка, ила и всех примесей</p>
+
+                <a href="#" class="card-btn"> ПОДРОБНЕЕ <span>+</span> </a>
+              </div>
+            </div>
+
+            <!-- CARD 4 -->
+            <div class="card">
+              <div class="card-img">
+                <img
+                  src="https://i.ytimg.com/vi/0Z75yyfqtKA/maxresdefault.jpg"
+                />
+                <div class="card-icon">
+                  <img src="/assests/img/skvajinfavicon.webp" />
+                </div>
+              </div>
+
+              <div class="card-body">
+                <h3>Демонтаж застрявшего насоса</h3>
+                <p>Достанем застрявший или упавший насос</p>
+
+                <a href="#" class="card-btn"> ПОДРОБНЕЕ <span>+</span> </a>
+              </div>
+            </div>
+
+            <!-- CARD 5 -->
+            <div class="card">
+              <div class="card-img">
+                <img
+                  src="https://watersistems.ru/wp-content/uploads/2024/07/2-600x365.jpg"
+                />
+                <div class="card-icon">
+                  <img src="/assests/img/skvajinfavicon.webp" />
+                </div>
+              </div>
+
+              <div class="card-body">
+                <h3>Монтаж систем водоочистки</h3>
+                <p>
+                  Установка и настройка систем очистки воды для дома и бизнеса.
+                </p>
+
+                <a href="#" class="card-btn"> ПОДРОБНЕЕ <span>+</span> </a>
+              </div>
+            </div>
+
+            <!-- CARD 6 -->
+            <div class="card">
+              <div class="card-img">
+                <img
+                  src="https://kgcr.ru/upload/iblock/dd7/jdd1fo440sc84bgqr280ugqtqxkyr3bh.jpg"
+                />
+                <div class="card-icon">
+                  <img src="/assests/img/skvajinfavicon.webp" />
+                </div>
+              </div>
+
+              <div class="card-body">
+                <h3>Бурение скважины на воду</h3>
+                <p>
+                  Профессиональное бурение скважин для стабильного
+                  водоснабжения.
+                </p>
+                <a href="#" class="card-btn"> ПОДРОБНЕЕ <span>+</span> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="work_steps">
+        <div class="work_steps_wrap">
+          <!-- LEFT FULL BLUE -->
+          <div class="work_steps_left">
+            <div class="container">
+              <div class="work_steps_content">
+                <span class="work_steps_label">КАК МЫ РАБОТАЕМ</span>
+
+                <h2>
+                  Как проходит работа<br />
+                  со скважинами
+                </h2>
+
+                <p class="work_steps_desc">
+                  Диагностика, ремонт и обслуживание быстро и с гарантией.
+                </p>
+
+                <div class="work_steps_list">
+                  <div class="work_step">
+                    <div class="work_step_num">01</div>
+                    <div class="work_step_text">
+                      <strong>Заявка</strong>
+                      <p>Оставьте заявку или позвоните</p>
+                    </div>
+                  </div>
+
+                  <div class="work_step">
+                    <div class="work_step_num">02</div>
+                    <div class="work_step_text">
+                      <strong>Диагностика</strong>
+                      <p>Осмотр и выявление проблемы</p>
+                    </div>
+                  </div>
+
+                  <div class="work_step">
+                    <div class="work_step_num">03</div>
+                    <div class="work_step_text">
+                      <strong>Ремонт</strong>
+                      <p>Выполнение работ и проверка</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- RIGHT IMAGE -->
+          <div class="work_steps_right">
+            <img src="/assests/img/remont.webp" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="blog">
+        <div class="container">
+          <div class="section_title">
+            <strong>Статьи</strong>
+            <p>
+              Полезные статьи о ремонте, обслуживании и эксплуатации скважин,
+              советы специалистов и рекомендации по выбору оборудования
+            </p>
+          </div>
+          <div class="swiper blogSwiper">
+            <div class="swiper-wrapper">
+              <!-- SLIDE 1 -->
+              <div class="swiper-slide">
+                <div class="blog_card">
+                  <div class="blog_img">
+                    <img
+                      src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6"
+                    />
+                    <div class="blog_date">20.04.2026</div>
+                  </div>
+
+                  <div class="blog_body">
+                    <span class="blog_cat">СКВАЖИНА</span>
+
+                    <h3>
+                      Как определить<br />
+                      проблему скважины
+                    </h3>
+
+                    <a href="#" class="card-btn"> ПОДРОБНЕЕ <span>+</span> </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- SLIDE 2 -->
+              <div class="swiper-slide">
+                <div class="blog_card">
+                  <div class="blog_img">
+                    <img
+                      src="https://images.unsplash.com/photo-1503387762-592deb58ef4e"
+                    />
+                    <div class="blog_date">18.04.2026</div>
+                  </div>
+
+                  <div class="blog_body">
+                    <span class="blog_cat">РЕМОНТ</span>
+
+                    <h3>
+                      Когда нужна замена<br />
+                      насоса в скважине
+                    </h3>
+
+                    <a href="#" class="card-btn"> ПОДРОБНЕЕ <span>+</span> </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- SLIDE 3 -->
+              <div class="swiper-slide">
+                <div class="blog_card">
+                  <div class="blog_img">
+                    <img
+                      src="https://images.unsplash.com/photo-1581578731548-c64695cc6952"
+                    />
+                    <div class="blog_date">15.04.2026</div>
+                  </div>
+
+                  <div class="blog_body">
+                    <span class="blog_cat">ОБСЛУЖИВАНИЕ</span>
+
+                    <h3>
+                      Очистка скважины:<br />
+                      когда это нужно
+                    </h3>
+
+                    <a href="#" class="card-btn"> ПОДРОБНЕЕ <span>+</span> </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- SLIDE 4 -->
+              <div class="swiper-slide">
+                <div class="blog_card">
+                  <div class="blog_img">
+                    <img
+                      src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+                    />
+                    <div class="blog_date">12.04.2026</div>
+                  </div>
+
+                  <div class="blog_body">
+                    <span class="blog_cat">СЕРВИС</span>
+
+                    <h3>
+                      Обслуживание<br />
+                      оборудования
+                    </h3>
+
+                    <a href="#" class="card-btn"> ПОДРОБНЕЕ <span>+</span> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <!-- OVERLAY BG -->
+      <div class="footer_overlay"></div>
+
+      <div class="container">
+        <div class="footer_wrap">
+          <!-- COL 1 -->
+          <div class="footer_col">
+            <div class="footer_logo">
+              <img src="/assests/img/skvajinlogo-removebg-preview.png" alt="" />
+            </div>
+
+            <p>
+              Профессиональные услуги по ремонту и обслуживанию скважин. Быстро,
+              качественно и с гарантией результата.
+            </p>
+
+            <div class="footer_social">
+              <a href="#">
+                <img src="/assests/img/telegram.svg" alt="" />
+              </a>
+              <a href="#">
+                <img src="/assests/img/whatsapp.svg" alt="" />
+              </a>
+              <a href="#">
+                <img src="/assests/img/maxmessencer.png" alt="" />
+              </a>
+            </div>
+          </div>
+
+          <!-- COL 2 -->
+          <div class="footer_col">
+            <h4>Услуги</h4>
+            <ul>
+              <li>Ремонт скважин</li>
+              <li>Замена насоса</li>
+              <li>Очистка скважин</li>
+              <li>Обслуживание</li>
+              <li>Монтаж систем</li>
+            </ul>
+          </div>
+
+          <!-- COL 3 -->
+          <div class="footer_col">
+            <h4>График работы</h4>
+            <ul class="footer_time">
+              <li><span>Пн - Вт</span> <b>7:00 - 16:00</b></li>
+              <li><span>Ср - Чт</span> <b>7:00 - 16:00</b></li>
+              <li><span>Пятница</span> <b>7:00 - 16:00</b></li>
+              <li><span>Суббота</span> <b>7:00 - 16:00</b></li>
+              <li><span>Воскресенье</span> <b>7:00 - 16:00</b></li>
+            </ul>
+          </div>
+
+          <!-- COL 4 -->
+          <div class="footer_col">
+            <h4>Подписка</h4>
+
+            <p>Подпишитесь, чтобы получать полезные статьи и советы.</p>
+
+            <form class="footer_form">
+              <input type="email" placeholder="Введите email..." />
+              <button>
+                ОТПРАВИТЬ
+                <span>+</span>
+              </button>
+            </form>
+
+            <small>* Условия и политика</small>
+          </div>
+        </div>
+        <div class="footer-bottom">
+        <div>
+          <p>Copyright © <span id="year"></span></p>
+        </div>
+        <a href="https://jeywastudio.com/">
+          Разработка сайта и <br />
+          техническая поддержка — JEYWA STUDIO
+        </a>
+      </div>
+      </div>
+
+      <!-- BOTTOM -->
+      
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="/assests/main.js"></script>
+    <script>
+      const swiper = new Swiper(".blogSwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        loop: true,
+
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+          },
+          600: {
+            slidesPerView: 2,
+          },
+          992: {
+            slidesPerView: 3,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
