@@ -28,3 +28,19 @@ const projectsSwiper = new Swiper(".projectsSlider", {
       },
     },
   });
+
+// Плавная анимация header при скролле
+const headerEl = document.querySelector("header");
+let lastScrollY = window.scrollY;
+
+window.addEventListener("scroll", () => {
+  const currentY = window.scrollY;
+
+  if (currentY > 10) {
+    headerEl.classList.add("header-scrolled");
+  } else {
+    headerEl.classList.remove("header-scrolled");
+  }
+
+  lastScrollY = currentY;
+});
